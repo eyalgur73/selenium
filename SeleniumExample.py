@@ -16,13 +16,13 @@ element.send_keys(Keys.RETURN)
 
 
 
-links = []
+links = ["This is my frist link"]
 with open('SitesList.csv') as csv_file:
     file_writer = csv.writer(csv_file)
 for row in file_writer:
     links.append(row)
 
 browser.quit()
-print("hiii")
+print("eyal")
 
 
